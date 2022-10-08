@@ -76,9 +76,8 @@ header {
 }
 
 .tasks {
-    margin: 20px 0px;
+    margin: 20px 10px;
     overflow: hidden;
-    padding-right: 20px;
 }
 
 #taskLists {
@@ -86,7 +85,7 @@ header {
 }
 
 .empty_task_list {
-    transition: 0s;
+    transition: 3s;
     background-position: center;
     background-size: 50%;
     background-repeat: no-repeat;
@@ -204,10 +203,10 @@ footer form {
         margin: top 30px;
     }
     .container {
-        border: none;
+        border: 7px solid var(--footer-color);
         border-radius: 0px;
         width: 100%;
-        height: 93vh;
+        height: 100vh;
         padding: 0px 20px;
     }
     #new_task_input {
